@@ -74,11 +74,4 @@ export default class Megoldas {
         }
         return eredmeny;
     }*/
-    public fajlbaIras(): void {
-        const kiirsor: string[] = [];
-        for (const i of this.Footgolfok) {
-            kiirsor.push(`${i.nev} ${i.pontok}\n`);
-        }
-        fs.writeFileSync("osszpontFF.txt", kiirsor.join(""));
-    }
 }
