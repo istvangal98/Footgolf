@@ -53,6 +53,7 @@ export default class Content {
         res.write("7. feladat: ");
         res.write(`<p>\t${megold.állománybaÍr()}</p>`);
         //Készítsen statisztikát a minta szerint, hogy az egyes egyesületekből hány versenyző indult a bajnokságon! Az egyesületen kívül indult versenyzőknél az egyesületnél az „n.a.” adat szerepel. Ezek a versenyzők és az egy vagy két versenyzőt indító egyesületek ne szerepeljenek a statisztikában!
+        res.write("8.feladat: ");
         //for (const i of megold.Statisztika) {
         //    res.write(i);
         //}
